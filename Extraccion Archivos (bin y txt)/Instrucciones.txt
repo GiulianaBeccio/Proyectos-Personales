@@ -1,0 +1,32 @@
+Consigna de Abstraccion de Datos y Archivos
+
+Realizar un programa para procesar líneas de texto almacenadas en un archivo de tipo texto,
+extrayendo información de ellas. Los datos que comienzan en la posición indicada y se componen
+de ancho caracteres están tabulados en la tabla a continuación. Este trabajo es de utilidad cuando se
+trabaja con datos almacenados en archivos formados por registros com campos de longitud fija.
+
+El utilizar este tipo de formato permite un procesamiento muy veloz de los datos. Un ejemplo de
+archivo es:
+
+KernighanRitchieThe C Programming LanguagePrentice-Hall19889780131103702
+KernighanRitchieEl lenguaje de programacioPearson Educa19919789688802052
+Aguilar  ZahonerProgramacion en C: metodolMcGraw-Hill  20059788448198442
+Deitel   Deitel   C: How to Program       Pearson      20129780132990448
+Bowman          Algorithms and Data StructOxford Univer20049780195174809
+Bowman   HernándAlgoritmos y estructuras dOxford Univer19999789706134592
+Kruse    Tondo  Data Structures and PrograPearson Educa20079788177584233
+
+El archivo se llama libros.txt
+
+Los campos a extraer de cada línea y las posiciones que ocupan y el ancho que abarcan, son:
+
+Nombre del campo 	Posición 	Ancho
+Autor 1 		    1 		  9
+Autor 2 		   10 		  7
+Titulo 			   17 		 26
+Editorial 		   43 		 13
+Año 			   56 		  4
+ISBN 			   60 		 13
+
+Se deberá definir una estructura adecuada a la información a extraer de cada línea y se almacenará
+en un arreglo que luego se almacenará en un archivo binario.

@@ -1,0 +1,14 @@
+Programa Juego de Poker:
+
+Se le asigna al usuario 5 cartas al azar (un mazo)
+El programa le indicara cuales son las categorias en las cuales ese mazo
+es ganador.
+
+Categorias:
+-Es Par
+-Es Doble
+-Es Triple
+-Full
+-Color
+-Escalera
+-Escalera Real
